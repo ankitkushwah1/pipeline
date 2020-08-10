@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image from Docker File */
 
-        cicd = docker.build("mitrasonu/pipeline")
+        cicd = docker.build("ankit131998/pipeline")
     }
 
     stage('Test image') {
